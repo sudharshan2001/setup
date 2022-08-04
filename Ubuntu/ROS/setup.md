@@ -1,11 +1,6 @@
 # Installation of Debian packages for ROS 2 Humble Hawksbill in Ubuntu Jammy
 
 To check locale which supports UTF-8
-```
-locale
-``` 
-
-file:///home/sudharshan/Pictures/Screenshots/withoututf.png
 
 Install locale
 ```
@@ -14,8 +9,6 @@ sudo locale-gen en_US en_US.UTF-8
 sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
 export LANG=en_US.UTF-8
 ``` 
-
-file:///home/sudharshan/Pictures/Screenshots/withutf.png
 
 ```
 apt-cache policy | grep universe
